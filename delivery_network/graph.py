@@ -1,20 +1,5 @@
 class Graph:
-    """
-    A class representing graphs as adjacency lists and implementing various algorithms on the graphs. Graphs in the class are not oriented. 
-    Attributes: 
-    -----------
-    nodes: NodeType
-        A list of nodes. Nodes can be of any immutable type, e.g., integer, float, or string.
-        We will usually use a list of integers 1, ..., n.
-    graph: dict
-        A dictionnary that contains the adjacency list of each node in the form
-        graph[node] = [(neighbor1, p1, d1), (neighbor1, p1, d1), ...]
-        where p1 is the minimal power on the edge (node, neighbor1) and d1 is the distance on the edge
-    nb_nodes: int
-        The number of nodes.
-    nb_edges: int
-        The number of edges. 
-    """
+    
 
     def __init__(self, nodes=[]):
         """
