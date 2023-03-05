@@ -1,6 +1,6 @@
 class Graph:
     
-    "df"
+    
     def __init__(self, nodes=[]):
         """
         Initializes the graph with a set of nodes, and no edges. 
